@@ -9,9 +9,7 @@ exports.printMessage = function printMessage(data, { green, yellow }) {
 To get started:
 
   ${yellow(
-    `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}${installMsg(
-      data
-    )}`
+    `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}`
   )}
 
 Documentation can be found at: https://quasar-framework.org

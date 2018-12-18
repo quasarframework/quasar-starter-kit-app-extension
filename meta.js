@@ -23,7 +23,7 @@ module.exports = {
     },
     preset: {
       type: 'checkbox',
-      message: 'Check the features needed for your project:',
+      message: 'Check the scripts needed for your cli-extension:',
       choices: [
         {
           name: 'Install script',
