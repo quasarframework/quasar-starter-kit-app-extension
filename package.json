@@ -1,0 +1,11 @@
+{
+  "name": "@quasar/starter-kit-cli-extension",
+  "private": true,
+  "version": "1.0.0-alpha.0",
+  "license": "MIT",
+  "description": "The official Quasar starter kit for creating CLI Extensions",
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  }
+}
