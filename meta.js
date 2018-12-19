@@ -9,7 +9,7 @@ module.exports = {
     name: {
       type: 'string',
       required: true,
-      message: 'Quasar CLI Extension name (without prefix)',
+      message: 'Quasar App Extension name (without prefix)',
     },
     description: {
       type: 'string',
@@ -23,7 +23,7 @@ module.exports = {
     },
     preset: {
       type: 'checkbox',
-      message: 'Check the scripts needed for your cli-extension:',
+      message: 'Check the scripts needed for your App Extension:',
       choices: [
         {
           name: 'Install script',
