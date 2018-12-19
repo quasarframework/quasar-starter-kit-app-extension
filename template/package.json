@@ -1,5 +1,5 @@
 {
-  "name": "quasar-cli-extension-{{ name }}",
+  "name": "quasar-app-extension-{{ name }}",
   "version": "0.0.1",
   "description": "{{ description }}",
   "author": "{{ author }}",

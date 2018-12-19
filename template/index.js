@@ -5,6 +5,6 @@
  * API: https://github.com/quasarframework/quasar/blob/dev/app/lib/cli-extension/IndexAPI.js
  */
 
-module.exports = function (api) {
+module.exports = function (api, ctx) {
   //
 }
