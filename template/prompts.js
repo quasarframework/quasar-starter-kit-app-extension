@@ -1,5 +1,5 @@
 /**
- * Quasar App CLI Extension prompts script
+ * Quasar App Extension prompts script
  *
  * Inquirer prompts
  * (answers are available as "api.prompts" in the other scripts)

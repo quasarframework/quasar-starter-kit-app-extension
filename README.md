@@ -4,20 +4,21 @@
 **WORK IN PROGRESS**
 **DO NOT INSTALL**
 
-# Quasar Framework CLI Extension starter kit
-> Starter Kit for a Quasar App CLI Extension.
+# Quasar Framework App Extension starter kit
+> Starter Kit for a Quasar App Extension.
 
 <!--
 ## Usage
 
-First, make sure you have Node (>= 8) and Yarn or NPM (>= 5).
+First, make sure you have Node (>= 8) and Yarn (> 1.6) or NPM (>= 5).
 
 ``` bash
-# install Quasar CLI beta version:
+# install the latest Quasar CLI version:
 $ npm install -g @quasar/cli
 
-# generate a project folder with this template
-$ quasar create my-extension --kit cli-extension
+# outside of a Quasar project folder,scaffold a new extension project
+# with this CLI command
+$ quasar create my-extension --kit app-extension
 
 $ cd my-extension
 
