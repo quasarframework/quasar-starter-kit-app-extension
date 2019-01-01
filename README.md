@@ -16,8 +16,8 @@ First, make sure you have Node (>= 8) and Yarn (any version) or NPM (>= 5).
 # install the latest Quasar CLI version:
 $ npm install -g @quasar/cli
 
-# scaffold a new extension project with this CLI command
-# be sure you are outside of a regular Quasar project folder
+# outside of a Quasar project folder,scaffold a new extension project
+# with this CLI command
 $ quasar create my-extension --kit app-extension
 
 $ cd my-extension
