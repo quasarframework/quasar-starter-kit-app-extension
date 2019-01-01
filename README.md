@@ -10,7 +10,7 @@
 <!--
 ## Usage
 
-First, make sure you have Node (>= 8) and Yarn (any version) or NPM (>= 5).
+First, make sure you have Node (>= 8) and Yarn (> 1.6) or NPM (>= 5).
 
 ``` bash
 # install the latest Quasar CLI version:
