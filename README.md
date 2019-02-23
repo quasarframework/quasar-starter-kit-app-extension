@@ -21,9 +21,10 @@ $ npm install -g @quasar/cli
 $ quasar create my-extension --kit app-extension
 
 $ cd my-extension
-
-# todo... more info
 ```
+
+You will see that there are two folders created. One is called "extension", and one is called "extension-test"
+
 -->
 
 # Quasar Framework
