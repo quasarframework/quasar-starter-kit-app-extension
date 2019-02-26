@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1551173138320" clover="3.2.0">
+  <project timestamp="1551173138320" name="All files">
+    <metrics statements="18" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="12" coveredmethods="0" elements="32" coveredelements="0" complexity="0" loc="18" ncloc="18" packages="7" files="13" classes="13"/>
+    <package name="boot">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="axios.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/boot/axios.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="i18n.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/boot/i18n.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="i18n">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/i18n/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="i18n.en-us">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/i18n/en-us/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="layouts">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MyLayout.vue" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/layouts/MyLayout.vue">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="router">
+      <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="index.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/router/index.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="routes.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/router/routes.js">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="store">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="index.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/store/index.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="store.module-example">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="actions.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/store/module-example/actions.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      </file>
+      <file name="getters.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/store/module-example/getters.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      </file>
+      <file name="index.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/store/module-example/index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="mutations.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/store/module-example/mutations.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      </file>
+      <file name="state.js" path="/Users/denjell/WebstormProjects/quasar-starter-kit-app-extension/test/test-extension/src/store/module-example/state.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
