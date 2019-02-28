@@ -41,9 +41,9 @@ module.exports = {
     }
   },
   filters: {
-    'install.js': 'preset.install',
-    'prompts.js': 'preset.prompts',
-    'uninstall.js': 'preset.uninstall'
+    'src/install.js': 'preset.install',
+    'src/prompts.js': 'preset.prompts',
+    'src/uninstall.js': 'preset.uninstall'
   },
   complete: function(data, { chalk }) {
     printMessage(data, chalk)
