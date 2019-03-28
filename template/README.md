@@ -1,3 +1,3 @@
-# Quasar CLI Extension
+# Quasar App Extension
 
 > WIP

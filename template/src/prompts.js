@@ -8,12 +8,14 @@
  * Example:
 
   return [
-    name: {
+    {
+      name: 'name',
       type: 'string',
       required: true,
       message: 'Quasar CLI Extension name (without prefix)',
     },
-    preset: {
+    {
+      name: 'preset',
       type: 'checkbox',
       message: 'Check the features needed for your project:',
       choices: [
