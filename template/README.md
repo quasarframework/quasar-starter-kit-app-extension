@@ -28,5 +28,39 @@ quasar ext remove my-ext <- change name
 # Other Info
 > Add other information that's not as important to know
 
+# Describe
+You can use quasar describe my-ext <- change name
+
+# Test Project
+Can be found here. <- provide link
+
+# Demo
+Can be found here. <- provide link (netlify, etc)
+
+# Example Code
+> Provide some example code for basic usage
+
+# My-Ext <- Use this section if your App Extension has a Vue API
+
+## My-Ext Vue Properties
+| Vue&nbsp;Property | Type	| Description |
+|---|---|---|
+| myProp | Boolean | Some description |
+
+## My-Ext Vue Events
+| Vue&nbsp;Event | Args	| Description |
+|---|---|---|
+| myEvent | none | Some description |
+
+## My-Ext Vue Methods
+| Vue&nbsp;Method | Args	| Description |
+|---|---|---|
+| myMethod | none | Some description |
+
+## My-Ext Vue Slots
+| Vue&nbsp;Slot | Description |
+|---|---|
+| mySlot | Some description |
+
 # Patreon
 If you like (and use) this App Extension, please consider becoming a Quasar [Patreon](https://www.patreon.com/quasarframework).
