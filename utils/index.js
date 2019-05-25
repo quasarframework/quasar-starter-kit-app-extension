@@ -12,7 +12,7 @@ To get started:
     `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}`
   )}
 
-Documentation can be found at: https://v1.quasar-framework.org
+Documentation can be found at: https://quasar.dev
 
 Quasar is relying on donations to evolve. We'd be very grateful if you can
 take a look at: https://www.patreon.com/quasarframework
