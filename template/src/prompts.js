@@ -1,6 +1,8 @@
 /**
  * Quasar App Extension prompts script
  *
+ * Docs: https://quasar.dev/app-extensions/development-guide/prompts-api
+ *
  * Inquirer prompts
  * (answers are available as "api.prompts" in the other scripts)
  * https://www.npmjs.com/package/inquirer#question
