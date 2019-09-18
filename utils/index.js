@@ -2,7 +2,7 @@
  * Prints the final message with instructions of necessary next steps.
  * @param {Object} data Data from questionnaire.
  */
-exports.printMessage = function printMessage(data, { green, yellow }) {
+module.exports.printMessage = function (data, { green, yellow }) {
   const message = `
  ${green('[*] Quasar CLI Extension project initialization finished!')}
 
