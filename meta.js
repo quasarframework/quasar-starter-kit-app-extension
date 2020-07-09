@@ -55,11 +55,17 @@ module.exports = {
     },
     homepage: {
       type: 'string',
-      message: 'Homepage URL'
+      message: 'Homepage URL',
+      default ({ repositoryURL }) {
+        return repositoryURL
+      }
     },
     bugs: {
       type: 'string',
-      message: 'Issue reporting URL (eg: https://github.com/quasarframework/quasar/issues)'
+      message: 'Issue reporting URL (eg: https://github.com/quasarframework/quasar/issues)',
+      default ({ repositoryURL }) {
+        return `${repositoryURL}${repositoryURL.endsWith('/') ? '' : '/'}issues`
+      }
     }
   },
 
