@@ -12,7 +12,7 @@
   return [
     {
       name: 'name',
-      type: 'string',
+      type: 'input',
       required: true,
       message: 'Quasar CLI Extension name (without prefix)',
     },
