@@ -11,7 +11,7 @@ _Think about the organization of this file and how the information will be benef
 ```bash
 quasar ext add {{ name }}
 ```
-Quasar CLI will retrieve it from NPM and install the extension.
+Quasar CLI will retrieve it from the NPM registry and install the extension to your project.
 
 ## Prompts
 
