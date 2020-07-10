@@ -1,4 +1,4 @@
-Quasar App Extension Title <- change name
+Quasar App Extension {{ name }}
 ===
 
 _Be sure to change this readme as appropriate for your app extension._
@@ -9,7 +9,7 @@ _Think about the organization of this file and how the information will be benef
 
 # Install
 ```bash
-quasar ext add my-ext <- change name
+quasar ext add {{ name }}
 ```
 Quasar CLI will retrieve it from NPM and install the extension.
 
@@ -19,7 +19,7 @@ Quasar CLI will retrieve it from NPM and install the extension.
 
 # Uninstall
 ```bash
-quasar ext remove my-ext <- change name
+quasar ext remove {{ name }}
 ```
 
 # Info
