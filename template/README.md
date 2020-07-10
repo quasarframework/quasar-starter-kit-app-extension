@@ -15,10 +15,12 @@ quasar ext add {{ name }}
 ```
 Quasar CLI will retrieve it from the NPM registry and install the extension to your project.
 
+{{#preset.prompts}}
 ## Prompts
 
-> If your app extension uses prompts, explain them here, otherwise remove this section.
+> Explain the prompts here
 
+{{/preset.prompts}}
 # Uninstall
 ```bash
 quasar ext remove {{ name }}
