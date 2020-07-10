@@ -7,6 +7,8 @@ _Think about the organization of this file and how the information will be benef
 
 > Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
 
+{{ description }}
+
 # Install
 ```bash
 quasar ext add {{ name }}
