@@ -4,8 +4,15 @@ module.exports = {
   prompts: {
     name: {
       type: 'string',
-      message: 'Quasar App Extension ext-id (the short name, without prefix)',
+      message: 'Quasar App Extension ext-id without the organization name and "quasar-app-extension" prefix, eg. "my-ext" if the full ext-id should be "@my-org/my-ext"',
       validate: val => val && val.length > 0
+    },
+    orgName: {
+      type: 'string',
+      message: 'Organization name of the Quasar App Extension (if any), eg. "my-org" if the full ext-id should be "@my-org/my-ext"',
+      default: 'none',
+      filter: (input) => input === 'none' ? '' : input,
+      transformer: (input, { name }) => input !== '' ? `@${input}/${name}` : ''
     },
 
     description: {

@@ -1,5 +1,9 @@
 {
+  {{#if_eq orgName ""}}
   "name": "quasar-app-extension-{{ name }}",
+  {{else}}
+  "name": "@{{ orgName }}/quasar-app-extension-{{ name }}",
+  {{/if_eq}}
   "version": "0.0.1",
   "description": "{{ description }}",
   "author": "{{ author }}",
