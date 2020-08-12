@@ -2,17 +2,21 @@ const { printMessage } = require('./utils')
 
 module.exports = {
   prompts: {
-    name: {
-      type: 'string',
-      message: 'Quasar App Extension ext-id without the organization name and "quasar-app-extension" prefix, eg. "my-ext" if the full ext-id should be "@my-org/my-ext"',
-      validate: val => val && val.length > 0
+    needOrgName: {
+      type: 'confirm',
+      message: 'Does your Quasar App Extension ext-id have an organization name? Eg. your ext-id should be like "@my-org/my-ext" instead of simply "my-ext"',
+      default: false
     },
     orgName: {
+      when: 'needOrgName',
+      type: 'input',
+      message: 'Organization name of the Quasar App Extension, eg. "my-org" if the ext-id should be "@my-org/my-ext"',
+      validate: val => val && val.length > 0
+    },
+    name: {
       type: 'string',
-      message: 'Organization name of the Quasar App Extension (if any), eg. "my-org" if the full ext-id should be "@my-org/my-ext"',
-      default: 'none',
-      filter: (input) => input === 'none' ? '' : input,
-      transformer: (input, { name }) => input !== '' ? `@${input}/${name}` : ''
+      message: 'Quasar App Extension ext-id (without "quasar-app-extension" prefix), eg. "my-ext" if the ext-id should be "@my-org/my-ext" or "my-ext"',
+      validate: val => val && val.length > 0
     },
 
     description: {
