@@ -1,5 +1,9 @@
 {
+  {{#if needOrgName}}
+  "name": "@{{ orgName }}/quasar-app-extension-{{ name }}",
+  {{else}}
   "name": "quasar-app-extension-{{ name }}",
+  {{/if}}
   "version": "0.0.1",
   "description": "{{ description }}",
   "author": "{{ author }}",
