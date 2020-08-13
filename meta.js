@@ -14,24 +14,24 @@ module.exports = {
       validate: val => val && val.length > 0
     },
     name: {
-      type: 'string',
+      type: 'input',
       message: 'Quasar App Extension ext-id (without "quasar-app-extension" prefix), eg. "my-ext" if the ext-id should be "@my-org/my-ext" or "my-ext"',
       validate: val => val && val.length > 0
     },
 
     description: {
-      type: 'string',
+      type: 'input',
       message: 'Project description',
       default: 'A Quasar App Extension'
     },
 
     author: {
-      type: 'string',
+      type: 'input',
       message: 'Author'
     },
 
     license: {
-      type: 'string',
+      type: 'input',
       message: 'License type',
       default: 'MIT'
     },
@@ -56,20 +56,20 @@ module.exports = {
     },
 
     repositoryType: {
-      type: 'string',
+      type: 'input',
       message: 'Repository type',
       default: 'git'
     },
     repositoryURL: {
-      type: 'string',
+      type: 'input',
       message: 'Repository URL (eg: https://github.com/quasarframework/quasar)'
     },
     homepage: {
-      type: 'string',
+      type: 'input',
       message: 'Homepage URL'
     },
     bugs: {
-      type: 'string',
+      type: 'input',
       message: 'Issue reporting URL (eg: https://github.com/quasarframework/quasar/issues)'
     }
   },

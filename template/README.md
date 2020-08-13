@@ -1,4 +1,4 @@
-Quasar App Extension Title <- change name
+Quasar App Extension {{ name }}
 ===
 
 _Be sure to change this readme as appropriate for your app extension._
@@ -7,19 +7,23 @@ _Think about the organization of this file and how the information will be benef
 
 > Add a short description of your App Extension. What does it do? How is it beneficial? Why would someone want to use it?
 
+{{ description }}
+
 # Install
 ```bash
-quasar ext add my-ext <- change name
+quasar ext add {{ name }}
 ```
-Quasar CLI will retrieve it from NPM and install the extension.
+Quasar CLI will retrieve it from the NPM registry and install the extension to your project.
 
+{{#preset.prompts}}
 ## Prompts
 
-> If your app extension uses prompts, explain them here, otherwise remove this section.
+> Explain the prompts here
 
+{{/preset.prompts}}
 # Uninstall
 ```bash
-quasar ext remove my-ext <- change name
+quasar ext remove {{ name }}
 ```
 
 # Info
