@@ -4,7 +4,7 @@
  */
 module.exports.printMessage = function (data, { green, yellow }) {
   const message = `
- ${green('[*] Quasar CLI Extension project initialization finished!')}
+ ${green('[*] Quasar App Extension project initialization finished!')}
 
 To get started:
 
