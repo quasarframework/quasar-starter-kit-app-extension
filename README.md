@@ -17,7 +17,7 @@ $ npm install -g @quasar/cli
 
 # outside of a Quasar project folder,scaffold a new extension project
 # with this CLI command
-$ quasar create my-extension --kit app-extension
+$ quasar create my-extension --kit app-extension --branch next
 
 $ cd my-extension
 ```
