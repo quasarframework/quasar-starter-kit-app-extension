@@ -4,18 +4,18 @@ module.exports = {
   prompts: {
     needOrgName: {
       type: 'confirm',
-      message: 'Does your Quasar App Extension ext-id have an organization name? Eg. your ext-id should be like "@my-org/my-ext" instead of simply "my-ext"',
+      message: 'Will you use an organization to publish it? Eg. "@my-org/..."',
       default: false
     },
     orgName: {
       when: 'needOrgName',
       type: 'input',
-      message: 'Organization name of the Quasar App Extension, eg. "my-org" if the ext-id should be "@my-org/my-ext"',
+      message: 'Organization name, eg. "my-org"',
       validate: val => val && val.length > 0
     },
     name: {
       type: 'input',
-      message: 'Quasar App Extension ext-id (without "quasar-app-extension" prefix), eg. "my-ext" if the ext-id should be "@my-org/my-ext" or "my-ext"',
+      message: 'Quasar App Extension ext-id (without "quasar-app-extension" prefix), eg. "my-ext"',
       validate: val => val && val.length > 0
     },
 
