@@ -1,5 +1,5 @@
 
-![Quasar Framework logo](https://cdn.rawgit.com/quasarframework/quasar-art/863c14bd/dist/svg/quasar-logo-full-inline.svg)
+![Quasar Framework logo](https://cdn.quasar.dev/logo-v2/header.png)
 
 # Quasar Framework App Extension starter kit
 > Starter Kit for a Quasar App Extension.
