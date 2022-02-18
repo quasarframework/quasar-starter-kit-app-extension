@@ -82,5 +82,7 @@ module.exports = {
 
   complete: function(data, { chalk }) {
     printMessage(data, chalk)
+    // Triggers git auto-initialization if Quasar CLI version allows
+    return Promise.resolve()
   }
 }
