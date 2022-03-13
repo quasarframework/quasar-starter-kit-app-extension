@@ -1,6 +1,9 @@
 
 ![Quasar Framework logo](https://cdn.quasar.dev/logo-v2/header.png)
 
+# DEPRECATED
+**DEPRECATED in favor of https://github.com/quasarframework/quasar/tree/dev/create-quasar**
+
 # Quasar Framework App Extension starter kit
 > Starter Kit for a Quasar App Extension.
 
